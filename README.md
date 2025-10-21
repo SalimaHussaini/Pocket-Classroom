@@ -66,5 +66,6 @@
 ├── /assets            # (Optional) Icons or images
 └── README.md
 
-🧑‍💻 Developed by: [Amena Miri]
+🧑‍💻 Developed by: [Salima Hussaini]
+
 Built with passion for offline-first, peer-to-peer learning tools.
