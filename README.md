@@ -77,7 +77,7 @@ You can edit or import it directly into your browser console or load it through 
 
 **Developed by:** *Salima Hussaini*  
 📍 Kabul, Afghanistan  
-📧 [salima.husaini2021@gmail.com]  
+📧 [salimasocial101@gmail.com]  
 🌐 [GitHub](https://github.com/SalimaHussaini) | [LinkedIn](https://www.linkedin.com/in/salima-hussaini-9bb805260)
 
 ---
