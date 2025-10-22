@@ -5,7 +5,7 @@
     --accent-day: #7e8cd2;
     --bg-day: #eaeff3;
     --card-bg-day: #ffffffeb;
-    --text-day: #07080a;
+    --text-day: #242932;
     --border-day: #cbd5e1;
     
     /* NIght Theme */
@@ -32,7 +32,7 @@
     --secondary-color: var(--secondary-night);
     --accent-color: var(--accent-night);
     --bg-color: var(--bg-night);
-    --text-color: var(--text-night);
+    --text-color:#f5f8fc; ;
     --card-bg: var(--card-bg-night);
     --border-color: var(--border-night);
 }
