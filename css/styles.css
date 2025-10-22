@@ -393,7 +393,7 @@ body {
     }
 
     .hero-section img {
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 
@@ -421,6 +421,7 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+
 
 
 
