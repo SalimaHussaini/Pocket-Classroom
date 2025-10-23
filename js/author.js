@@ -20,18 +20,18 @@ function setupEventListeners() {
     
     // Cancel button
     document.getElementById('cancelEditBtn').addEventListener('click', () => {
-        if (confirm('Are you sure you want to cancel? Unsaved changes will be lost.')) {
+        if (confirm(`Are you sure you want to cancel? Unsaved changes will be lost.`)) {
             showView('library');
         }
     });
     
     // Add flashcard button
-    document.getElementById('addFlashcardBtn').addEventListener('click', () => {
+    document.getElementById(`addFlashcardBtn`).addEventListener('click', () => {
         addFlashcardRow();
     });
     
     // Add question button
-    document.getElementById('addQuestionBtn').addEventListener('click', () => {
+    document.getElementById(`addQuestionBtn`).addEventListener('click', () => {
         addQuestionBlock();
     });
 }
@@ -117,7 +117,7 @@ function addFlashcardRow(front = '', back = '') {
     `;
     
     row.querySelector('.btnDel').addEventListener('click', () => {
-        if (document.querySelectorAll('#flashcardsEditor .row').length > 1) {
+        if (document.querySelectorAll(`#flashcardsEditor .row`).length > 1) {
             row.remove();
         } else {
             alert('At least one flashcard is required');
@@ -283,3 +283,4 @@ function escapeHtml(unsafe) {
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
 }
+
