@@ -1,17 +1,17 @@
 :root {
     /* Day Theme  */
-    --primary-day: #1e45b0;
-    --secondary-day: #3b77d8;
+    --primary-day: #2246a8;
+    --secondary-day: #215dbef5;
     --accent-day: #0a34f0cf;
     --bg-day: #f0f9ff;
     --card-bg-day: #ffffff;
     --text-day: #1e293b;
-    --border-day: #fdfdfedd;
+    --border-day: #0c0caadd;
     
     /* NIght Theme */
     --primary-night: #0f1626;
     --secondary-night: #0d2141;
-    --accent-night: #0e1b5a;
+    --accent-night: #0e1b5ad7;
     --bg-night: #020514;
     --card-bg-night: #0f172a;
     --text-night: #eceff4;
@@ -21,7 +21,7 @@
     --secondary-color: var(--secondary-day);
     --accent-color: var(--accent-day);
     --bg-color: var(--bg-day);
-    --text-color: var(--text-day);
+  --text-color: var(--text-day);
     --card-bg: var(--card-bg-day);
     --border-color: var(--border-day);
 }
