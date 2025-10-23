@@ -1,21 +1,21 @@
 :root {
     /* Day Theme  */
-    --primary-day: #65c6d9;
-    --secondary-day: #36a9c9d6;
-    --accent-day: #44c3e6d3;
+    --primary-day: #017cc3;
+    --secondary-day: #2e6cbed6;
+    --accent-day: #3d81dad3;
     --bg-day: #f6f7f8;
     --card-bg-day: #fffffff6;
     --text-day: #242932;
-    --border-day: #82b1ba;
+    --border-day: #7b99c5;
     
     /* NIght Theme */
-    --primary-night: #1f3c42;
-    --secondary-night: #36494b;
-    --accent-night:  #48858f;
-    --bg-night: #3c4e55;
-    --card-bg-night: #2a3c42;
-    --text-night: #f5f8fc;
-    --border-night: #243b3f;
+    --primary-night: #16263d;
+    --secondary-night: #2e3645;
+    --accent-night:  #1c4655;
+    --bg-night: #121b1f;
+    --card-bg-night: #1c283f;
+    --text-night: #fdfeff;
+    --border-night: #1d2a3a;
         
     /* Variable */
     --primary-color: var(--primary-day);
@@ -32,7 +32,7 @@
     --secondary-color: var(--secondary-night);
     --accent-color: var(--accent-night);
     --bg-color: var(--bg-night);
-    --text-color:#fbffff; ;
+    --text-color:#fdfeff; ;
     --card-bg: var(--card-bg-night);
     --border-color: var(--border-night);
 }
@@ -47,7 +47,7 @@ body {
 
 .navbar {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%) !important;
-    box-shadow: 0 4px 15px rgba(255, 254, 254, 0.868);
+    box-shadow: 0 4px 15px rgba(92, 100, 114, 0.923);
     border-bottom: none;
 }
 
@@ -67,7 +67,7 @@ body {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(90, 141, 168, 0.701);
+    box-shadow: 0 6px 20px rgba(6, 50, 104, 0.701);
 }
 
 .btn-outline-primary {
@@ -88,13 +88,13 @@ body {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(95, 113, 129, 0.826);
+    box-shadow: 0 4px 15px rgba(41, 76, 106, 0.833);
     transition: all 0.3s ease;
 }
 
 .card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 25px rgba(59, 160, 173, 0.821);
+    box-shadow: 0 8px 25px rgba(1, 51, 109, 0.821);
 }
 
 .card-header {
@@ -120,7 +120,7 @@ body {
     transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     border-radius: 16px;
-    box-shadow: 0 8px 32px rgba(237, 236, 236, 0.915);
+    box-shadow: 0 8px 32px rgba(251, 251, 252, 0.945);
 }
 
 .flashcard.flipped {
@@ -140,7 +140,7 @@ body {
     border-radius: 16px;
     padding: 2rem;
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    color: rgba(239, 236, 236, 0.915);
+    color: rgba(244, 246, 248, 0.934);
 }
 
 .flashcard-back {
@@ -170,12 +170,12 @@ body {
 
 .nav-tabs .nav-link:hover {
     border: none;
-    background-color: rgba(79, 152, 188, 0.793);
+    background-color: rgba(69, 125, 189, 0.793);
 }
 
 .nav-tabs .nav-link.active {
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    color: rgba(255, 255, 255, 0.933);
+    color: rgba(57, 56, 56, 0.933);
     border: none;
 }
 
@@ -205,7 +205,7 @@ body {
 }
 
 .bg-secondary {
-    background: linear-gradient(135deg, #62949d, #52b9de) !important;
+    background: linear-gradient(135deg, #041a46, #0240a3) !important;
 }
 
 /* Lists */
@@ -218,7 +218,7 @@ body {
 }
 
 .list-group-item:hover {
-    background-color: rgba(101, 157, 168, 0.744);
+    background-color: rgba(104, 139, 188, 0.744);
     transform: translateX(5px);
 }
 
@@ -281,7 +281,7 @@ body {
 
 .quiz-choice:hover {
     transform: translateX(10px);
-    background-color: rgba(63, 140, 179, 0.868);
+    background-color: rgba(43, 89, 158, 0.868);
 }
 
 /* Gradient */
@@ -352,7 +352,7 @@ body {
     height: auto;
     margin: 60px 0;
     border-radius: 20px;
-    box-shadow: 0 1px 1px rgba(50, 101, 130, 0.59);
+    box-shadow: 0 1px 1px rgba(50, 75, 137, 0.59);
     transform: scale(1.05);
     cursor: pointer;
     transition: transform 0.3s ease, box-shadow none ease;
@@ -399,7 +399,7 @@ body {
 
 /* Theme icon */
 #themeToggle {
-    border: 2px solid rgba(233, 245, 245, 0.842);
+    border: 2px solid rgba(36, 36, 36, 0.842);
     border-radius: 300%;
     width: 30px;
     height: 30px;
@@ -407,7 +407,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
-    background: rgba(234, 229, 229, 0.995);
+    background: rgba(162, 168, 183, 0.995);
     backdrop-filter: blur(10px);
 }
 
@@ -417,7 +417,7 @@ body {
 }
 
 [data-theme="night"] body {
-    background: linear-gradient(135deg,  var(--bg-night) 0%, #6c9cc8 100%);
+    background: linear-gradient(135deg,  var(--bg-night) 0%, #546cb0 100%);
     position: relative;
     overflow-x: hidden;
 }
