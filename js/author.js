@@ -112,7 +112,7 @@ function addFlashcardRow(front = '', back = '') {
             <input type="text" class="form-control fc-back" value="${escapeHtml(back)}" placeholder="Back of card">
         </div>
         <div class="col-md-2">
-            <button type="button" class="btn btn-outline-danger btn-sm w-100 btnDel">×</button>
+            <button type="button" class="btn btn-outline-danger btn-sm w-100 btnDel">Delete</button>
         </div>
     `;
     
